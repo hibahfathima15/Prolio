@@ -1,0 +1,108 @@
+.main-container{
+    border: 1px solid black;
+  }
+  
+  .gen{
+    margin-top: 15%;
+    margin-left: 23%;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sub-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image{
+  border: 2px solid grey;
+  width: 12%;
+  height: 15vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 23%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  }
+  
+  .button{
+  /* border: 2px solid black; */
+  width: 40%;
+  margin-top: 2%;
+  height: 15vh;
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-around;
+  }
+  
+  .btn-1{
+  background-color: rgb(73, 73, 227);
+  margin: 15% 0 15% 0 ;
+  height: 5vh;
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10%;
+  }
+  
+  .btn-2{
+    background-color: white;
+  margin: 15% 0 15% 0 ;
+  height: 5vh;
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10%;
+  border: 1.5px solid red;
+  }
+  
+  .input-container {
+    /* background: #EFF4FF; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid black; */
+    margin-top: 4%;
+    margin-left: 20%;
+  }
+  
+  .stylerow{
+    background: #EFF4FF;
+    display: flex;
+    gap:10%;
+    width: auto;
+  }
+  
+  .stylerow1{
+    margin-left: -45%;
+    margin-top: 5px;
+  }
+  
+  .input-container label {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  .input-container input[type="text"],
+  .input-container input[type="email"],
+  .input-container input[type="tel"],
+  .input-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
