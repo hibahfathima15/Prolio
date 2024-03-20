@@ -30,22 +30,22 @@
     margin-left: 5%;
     align-items: center;
     color: #003480;
+    background-color: white;
 }
 
 .text1{
     font-weight: 548;
     font-size: 18px;
     color: black;
+    background-color: white;
 }
 
 .text2{
     font-size: 15px;
     color: grey;
+    background-color: white;
 }
 
-.btn1{
-   
-} 
 
 .btn-container{
     padding-right:5%;

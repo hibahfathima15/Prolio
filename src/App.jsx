@@ -5,6 +5,7 @@ import Subitem from './Subcategoryitempage/Subcategoryitem';
 import Category from './Categorypage/Category'
 import Sub from './Subcategorypage/Subcategory'
 import ProfilePages from './Profilepage/Profilepage'
+import Enquiry from './Enquirespage/Enquiry';
 
 const App =() => {
   return (
@@ -14,6 +15,7 @@ const App =() => {
         <Route path='/subcategory' element={<Sub />}></Route>
         <Route path='/subitems' element={<Subitem />}></Route>
         <Route path='/profileinfo' element={<ProfilePages />}></Route>
+        <Route path='/enquiries' element={<Enquiry/>}></Route>
       </Routes>
   </BrowserRouter>
  
