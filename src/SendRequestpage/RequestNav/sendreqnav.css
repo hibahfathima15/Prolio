@@ -1,0 +1,8 @@
+.content-nav{
+    background-color:#003480;
+    display:flex;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    padding: 20px 40px;
+}
